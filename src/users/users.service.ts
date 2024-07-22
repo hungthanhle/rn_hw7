@@ -10,11 +10,21 @@ export class UsersService {
       userId: 1,
       username: 'john',
       password: 'changeme',
+      scope: [
+        "users:update",
+        "airports:list",
+        "flights:create",
+      ],
     },
     {
       userId: 2,
       username: 'maria',
       password: 'guess',
+      scope: [
+        "users:update",
+        "airports:list",
+        "flights:create",
+      ],
     },
   ];
 
