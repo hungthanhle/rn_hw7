@@ -22,8 +22,6 @@ export class UsersService {
       password: 'guess',
       scope: [
         "users:update",
-        "airports:list",
-        "flights:create",
       ],
     },
   ];
